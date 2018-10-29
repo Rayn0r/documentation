@@ -1857,6 +1857,17 @@ learn about the "simple sign up" - see https://nextcloud.com/signup/
 
 If this is set to "false" it will not show the link.
 
+::
+
+	'login_form_autocomplete' => true,
+
+By default autocompletion is enabled for the login form on Nextcloud's login page.
+While this is enabled, browsers are allowed to "remember" login names and such.
+Some companies require it to be disabled to comply with their security policy.
+
+Simply set this property to "false", if you want to turn this feature off.
+
+
 .. ALL_OTHER_SECTIONS_END
 .. Generated content above. Don't change this.
 
